@@ -1,0 +1,9 @@
+# Mybatis_Spring
+本项目运用了原始dao开发和动态代理mapper接口开发两种开发模式，对mybatis与spring进行整合整合，并结合mysql简单操作数据库的增改删查功能。
+
+原始dao开发模式： 在spring配置文件中配置原始dao接口bean对象，dao继承SqlSessionDaoSupport来实现
+
+动态代理mapper接口开发模式： 在spring配置文件中配置mapper批量扫描 ，扫描包下的mapper文件，自动创建代理对象。
+根据mapper.java的类名自动获得bean的id值（首字母小写）。
+mapper批量扫描遵循规范：mapper.java和mapper.xml的名称保持一致且在同目录下。
+
