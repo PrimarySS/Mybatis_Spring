@@ -7,3 +7,5 @@
 根据mapper.java的类名自动获得bean的id值（首字母小写）。
 mapper批量扫描遵循规范：mapper.java和mapper.xml的名称保持一致且在同目录下。
 
+详细的工程解释可以参考本博主的scdn关于Mybatis和Spring整合的文章https://blog.csdn.net/qq_38931949/article/details/83273536
+
